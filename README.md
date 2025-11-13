@@ -54,7 +54,7 @@ This repository implements the three experiments required by the assignment and 
 │   ├── exp3_target3.csv
 │   ├── exp3_target3_score_vs_steps.png
 │   ├── exp3_target3_avg5_vs_steps.png
-│   └── comparison_avg5_vs_episode.png
+│   └── comparison_avg5_vs_episode.png  #Comparison final plot
 ├── README.md
 └── requirements.txt              # Create via 'python -m pip freeze > requirements.txt'
 ```
