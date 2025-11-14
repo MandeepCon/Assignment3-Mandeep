@@ -54,7 +54,7 @@ This repository implements the three experiments required by the assignment and 
 │   ├── exp3_target3.csv
 │   ├── exp3_target3_score_vs_steps.png
 │   ├── exp3_target3_avg5_vs_steps.png
-│   └── comparison_avg5_vs_episode.png
+│   └── comparison_avg5_vs_episode.png  #Comparison final plot
 ├── README.md
 └── requirements.txt              # Create via 'python -m pip freeze > requirements.txt'
 ```
@@ -155,35 +155,3 @@ python -m autorom --accept-license -y
   Check `torch.cuda.is_available()`. Install proper CUDA wheels from https://pytorch.org.
 
 ---
-
-## 📦 Export Dependencies
-
-To capture the exact versions from your active environment:
-```bash
-python -m pip freeze > requirements.txt
-```
-
-*(Conda alternative)*
-```bash
-conda env export --from-history > environment.yml
-```
-
-*(Starter requirements, if you want a minimal list to start from)*
-```
-gym==0.26.2
-gym[atari]==0.26.2
-ale-py
-autorom
-numpy
-pandas
-matplotlib
-torch
-torchvision
-torchaudio
-```
-
----
-
-## 📜 License
-
-For academic use in **CSCN 8020**. Atari ROMs are installed via AutoROM under their respective licenses.
